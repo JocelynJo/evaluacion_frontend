@@ -1,0 +1,136 @@
+﻿<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
+	<title>Examen Herramientas Productividad</title>
+	<link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+	<link href="https://fonts.googleapis.com/css?family=Roboto" rel="stylesheet">
+	<script src="https://use.fontawesome.com/253bce21cd.js"></script>
+	<link rel="stylesheet" type="text/css" href="dist/css/style.min.css">
+	<!--REQUIRED STYLE SHEETS-->
+</head>
+<body>
+	<nav>
+		<div class="nav-wrapper">
+			<a href="#" class="brand-logo"><img class="logo" src="dist/img/logo-gris.jpg" alt=""></a>
+			<ul class="right hide-on-med-and-down">
+				<li><a href="#"><i class="material-icons">info</i></a></li>
+			</ul>
+		</div>
+	</nav>
+	<section id="mapa">
+		<div class="row mapa">
+			<div class="col m3 s12 home-sec ">
+				<label>Origen</label>
+				<select class="browser-default origen" name="origen">
+					<option value="0" disabled selected>Seleccione</option>
+				</select>
+				<label>Destino</label>
+				<select class="browser-default destino" name="destino">
+					<option value="0" disabled selected>Seleccione</option>
+				</select>
+				
+				<a class="waves-effect waves-light btn-large buscar" disabled="disabled" >Buscar</a>
+				
+
+			</div>  
+
+		</div>
+		<div class="row ">
+			<div class="col m3 s12 autos ">
+				<div class="oculto">
+					<h5>VEHICULO</h5>
+					<h6>seleccione</h6>
+					<form action="#" id="formulario">
+						<div class="row">
+							<p class="col m6">
+								<input name="group1" type="radio" id="test1" value="moto" />
+								<label for="test1"><img class="auto" src="dist/img/moto.jpg" alt=""></label>
+								<div class=" col m6 ">
+									<h6>Motocicleta</h6>
+									<label for="test1">Maximo 2 pasajeros</label>
+								</div>
+
+							</p>
+							
+						</div>
+						<div class="row">
+							<p class="col m6">
+								<input name="group1" type="radio" id="test2" value="auto" />
+								<label for="test2"><img class="auto" src="dist/img/auto.jpg" alt=""></label>
+								<div class="col m6 ">
+									<h6>Automovil</h6>
+									<label for="test1">Maximo 5 pasajeros</label>
+								</div>
+							</p>
+							
+						</div>
+						
+						<div class="row">
+							<p class="col m6">
+								<input name="group1" type="radio" id="test3" value="minivan"  />
+								<label for="test3"><img  class="auto" src="dist/img/van.jpg" alt=""></label>
+								<div class="col m6 ">
+									<h6>Minivan</h6>
+									<label for="test1">Maximo 8 pasajeros</label>
+								</div>
+							</p>
+							
+						</div>
+						<div class="row">
+							<p class="col m6">
+								<input name="group1" type="radio" id="test4" value="camion"  />
+								<label for="test4"><img class="auto" src="dist/img/camion.jpg" alt=""></label>
+								<div class="col m6">
+									<h6>Camion</h6>
+									<label for="test1">Maximo 3 pasajeros</label>
+								</div>
+							</p>
+							
+						</div>
+						
+						<div class="input-field inline">
+							<input id="pasajeros" type="number" class="validate">
+							<label for="pasajeros" data-error="wrong" >Nº de pasajeros</label>
+						</div>
+						<a class="waves-effect waves-light btn-large  modal-trigger compartir " href="#modal1" >Compartir auto</a>
+					</form>
+					
+				</div>
+				
+			</div>
+		</div>
+		<div id="modal1" class="modal bottom-sheet">
+			<div class="modal-content">
+				
+			</div>
+			<div class="modal-footer">
+				<a href="#!" class=" modal-action modal-close waves-effect waves-green btn-flat">Agree</a>
+			</div>
+		</div>
+	</section>
+	<div id="home-sec" class="container"> 
+		
+		
+		
+	</div><!--END HOME SECTION-->  
+	<section id="info"  >
+		<div class="container">
+		</div>
+	</section><!--END ABOUT SECTION-->
+	<section id="calculator" >
+		<div class="container">
+		</div>
+	</section><!--END PROJECT SECTION-->
+	<div id="footer">
+		2014 www.yourdomain.com | All Right Reserved  
+	</div><!-- END FOOTER SECTION -->
+
+	<script type="text/javascript" src="node_modules/jquery/dist/jquery.min.js"></script>
+	<script type="text/javascript" src="https://code.jquery.com/jquery-2.1.1.min.js"></script>
+	<script type="text/javascript" src="dist/js/materialize.js"></script>
+	<script type="text/javascript" src="dist/js/script.min.js"></script>
+</body>
+
+</html>

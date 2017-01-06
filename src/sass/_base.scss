@@ -1,0 +1,75 @@
+
+nav{
+	background-color:$blanco;
+	box-shadow:none;
+}
+.logo{
+	width:60%;
+}
+
+.home-sec{
+	margin-left:20%;
+	width:400px;
+	height:150px;
+	background-color:$blanco;
+	margin-top:6%;
+}
+.selector{
+	height:200px;
+}
+.mapa{
+	margin-left:10%;
+
+}
+
+#mapa{
+	@include background-image(url("../../dist/img/background.jpg"),100%,1125px, 1578px 1125px, no-repeat,0%);
+}
+.btn, .btn-large{
+	background-color:$basecolor;
+	width: 311px;
+	margin-top:10%;
+	margin-left:-4%;
+	&:hover{
+		background-color:$basecolor;
+	}
+
+}
+.oculto{
+	display:none;
+	background-color:$blanco;
+    width: 311px;
+    height: 595px;
+    margin-left: 39%;
+    margin-top: 20%;
+    padding:5%;
+
+}
+.compartir{
+	margin-top:20%;
+	margin-left:-6%;
+}
+
+.vehi1{
+	@include vehiculo(absolute,18%,140%);
+}
+.vehi2{
+	@include vehiculo(absolute,18%,157%);
+}
+.vehi3{
+	@include vehiculo(absolute,18%,174%);
+}
+.vehi4{
+	@include vehiculo(absolute,18%,191%);
+}
+.auto{
+	width:$tamanovehi;
+}
+
+[type=radio].with-gap:checked+label:after, [type=radio]:checked+label:after{
+	background-color:$basecolor;
+}
+
+[type=radio].with-gap:checked+label:after, [type=radio].with-gap:checked+label:before, [type=radio]:checked+label:after {
+    border: 2px solid $gris;
+}
