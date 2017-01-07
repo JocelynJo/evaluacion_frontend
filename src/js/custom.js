@@ -52,6 +52,34 @@ $(document).ready(function(){
 			$(".modal-content").append('<h4>'+"Cuanto gasta"+'<h4>');
 			
 		}
+		if(opAuto=="auto" && pasajeros>5 ){
+			alert("excede el maximo de pasajeros-->5");
+		}else{
+			$('.modal').modal();
+			$(".modal-content").append('<h4>'+"Cuanto gasta"+'<h4>');
+			
+		}
+		if(opAuto=="auto" && pasajeros>5 ){
+			alert("excede el maximo de pasajeros-->5");
+		}else{
+			$('.modal').modal();
+			$(".modal-content").append('<h4>'+"Cuanto gasta"+'<h4>');
+			
+		}
+		if(opAuto=="minivan" && pasajeros>8 ){
+			alert("excede el maximo de pasajeros-->8");
+		}else{
+			$('.modal').modal();
+			$(".modal-content").append('<h4>'+"Cuanto gasta"+'<h4>');
+			
+		}
+		if(opAuto=="camion" && pasajeros>3 ){
+			alert("excede el maximo de pasajeros-->3");
+		}else{
+			$('.modal').modal();
+			$(".modal-content").append('<h4>'+"Cuanto gasta"+'<h4>');
+			
+		}
 
 
 		/*else if(opAuto == "auto" && pasajeros>5){
