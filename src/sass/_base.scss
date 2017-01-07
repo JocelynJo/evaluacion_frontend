@@ -1,10 +1,9 @@
-
 nav{
 	background-color:$blanco;
 	box-shadow:none;
 }
 .logo{
-	width:60%;
+	width:36%;
 }
 
 .home-sec{
@@ -23,11 +22,11 @@ nav{
 }
 
 #mapa{
-	@include background-image(url("../../dist/img/background.jpg"),100%,1125px, 1578px 1125px, no-repeat,0%);
+	@include background-image(url("../../dist/img/background.jpg"),100%,1125px, 1835px 1125px, no-repeat,-201px);
 }
-.btn, .btn-large{
+.btn-large{
 	background-color:$basecolor;
-	width: 311px;
+	width: 323px;
 	margin-top:10%;
 	margin-left:-4%;
 	&:hover{
@@ -38,7 +37,7 @@ nav{
 .oculto{
 	display:none;
 	background-color:$blanco;
-    width: 311px;
+    width: 321px;
     height: 595px;
     margin-left: 39%;
     margin-top: 20%;
@@ -73,3 +72,42 @@ nav{
 [type=radio].with-gap:checked+label:after, [type=radio].with-gap:checked+label:before, [type=radio]:checked+label:after {
     border: 2px solid $gris;
 }
+ .inform{
+	color:$basecolor;
+	position:absolute;
+	font-size: 285%;
+    left: 92%;
+    top: 5%
+ }
+
+@media (max-width: 450px) {
+  .tool {
+    display: none;
+  }
+  .logo{
+  	width: 113%;
+    margin-top: 4%;
+    margin-left: 43%;
+  }
+  .mapa{
+  	margin-left: 3%;
+    margin-right: 3%;
+  }
+  .buscar{
+    width: 106%;
+    margin-left: -3%;
+  }
+  .oculto{
+  	margin-left: 1%;
+    margin-top: 20%;
+    width: 381px;
+    height: 515px;
+  }
+  .auto{
+  	width:$tamanovehires;
+  }
+  .btn-large{
+  	width: 382px;
+  }
+}
+
